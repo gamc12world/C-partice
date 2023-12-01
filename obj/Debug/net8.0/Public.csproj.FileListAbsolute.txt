@@ -1,0 +1,14 @@
+/home/anish/Public/obj/Debug/net8.0/Public.GeneratedMSBuildEditorConfig.editorconfig
+/home/anish/Public/obj/Debug/net8.0/Public.AssemblyInfoInputs.cache
+/home/anish/Public/obj/Debug/net8.0/Public.AssemblyInfo.cs
+/home/anish/Public/obj/Debug/net8.0/Public.csproj.CoreCompileInputs.cache
+/home/anish/Public/bin/Debug/net8.0/Public
+/home/anish/Public/bin/Debug/net8.0/Public.deps.json
+/home/anish/Public/bin/Debug/net8.0/Public.runtimeconfig.json
+/home/anish/Public/bin/Debug/net8.0/Public.dll
+/home/anish/Public/bin/Debug/net8.0/Public.pdb
+/home/anish/Public/obj/Debug/net8.0/Public.dll
+/home/anish/Public/obj/Debug/net8.0/refint/Public.dll
+/home/anish/Public/obj/Debug/net8.0/Public.pdb
+/home/anish/Public/obj/Debug/net8.0/Public.genruntimeconfig.cache
+/home/anish/Public/obj/Debug/net8.0/ref/Public.dll
