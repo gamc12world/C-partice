@@ -12,3 +12,4 @@
 /home/anish/Public/obj/Debug/net8.0/Public.pdb
 /home/anish/Public/obj/Debug/net8.0/Public.genruntimeconfig.cache
 /home/anish/Public/obj/Debug/net8.0/ref/Public.dll
+/home/anish/Public/obj/Debug/net8.0/Public.sourcelink.json
