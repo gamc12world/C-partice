@@ -5,6 +5,15 @@ Console.WriteLine(Aman.Evenorodd(b1));
 Console.WriteLine("enter the number for factorial");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Aman.Factorial(b));
+var num1= new string[3] {"aman","anish","aashi"};
+Console.WriteLine(num1[0]);
+num1[0]="nothing";
+Console.WriteLine(num1[0]);
+var num2=new int[3] {1,2,3};
+Console.WriteLine(num2[0]);
+num2[0]=12;
+Console.WriteLine(num2[0]);
+Console.WriteLine(Aman.Aman1.Sum(1,2));
 public class Aman
 {
     public static int Evenorodd(int a)
@@ -31,10 +40,10 @@ public class Aman
         }
         return fact;
     }
-}
-public struct Rgb
-{
-    public int r;
-    public int g;
-    public int b;
+      public class Aman1{
+         public static int Sum(int i,int i1){
+          return i +i1;
+         }
+      }
+
 }
