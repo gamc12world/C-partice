@@ -14,6 +14,7 @@ Console.WriteLine(num2[0]);
 num2[0]=12;
 Console.WriteLine(num2[0]);
 Console.WriteLine(Aman.Aman1.Sum(1,2));
+Console.WriteLine(Aman.Aman1.Is1("Amanisniceboy"));
 public class Aman
 {
     public static int Evenorodd(int a)
@@ -41,8 +42,13 @@ public class Aman
         return fact;
     }
       public class Aman1{
-         public static int Sum(int i,int i1){
+        public static int Sum(int i,int i1){
           return i +i1;
+         }
+         public static string[] Is1(string a){
+             string[] s1={};
+             Console.WriteLine(s1.Append(a));
+          return s1;
          }
       }
 
