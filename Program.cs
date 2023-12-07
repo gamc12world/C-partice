@@ -5,16 +5,16 @@ Console.WriteLine(Aman.Evenorodd(b1));
 Console.WriteLine("enter the number for factorial");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Aman.Factorial(b));
-var num1= new string[3] {"aman","anish","aashi"};
+var num1 = new string[3] { "aman", "anish", "aashi" };
 Console.WriteLine(num1[0]);
-num1[0]="nothing";
+num1[0] = "nothing";
 Console.WriteLine(num1[0]);
-var num2=new int[3] {1,2,3};
+
+var num2 = new int[3] { 1, 2, 3 };
 Console.WriteLine(num2[0]);
-num2[0]=12;
+num2[0] = 12;
 Console.WriteLine(num2[0]);
-Console.WriteLine(Aman.Aman1.Sum(1,2));
-Console.WriteLine(Aman.Aman1.Is1("Amanisniceboy"));
+Console.WriteLine(Aman.Aman1.Sum(1, 2));
 public class Aman
 {
     public static int Evenorodd(int a)
@@ -41,15 +41,27 @@ public class Aman
         }
         return fact;
     }
-      public class Aman1{
-        public static int Sum(int i,int i1){
-          return i +i1;
-         }
-         public static string[] Is1(string a){
-             string[] s1={};
-             Console.WriteLine(s1.Append(a));
-          return s1;
-         }
-      }
-
+    public class Aman1
+    {
+        public static int Sum(int i, int i1)
+        {
+            return i + i1;
+        }
+        public static string[] Is1(string a, string b)
+        {
+            string[] s1 = { b };
+            Console.WriteLine(s1.Append(a));
+            var s12 = s1;
+            return s12;
+        }
+    }
+}
+public enum Mains
+{
+    a = 0,
+    b = 1,
+    c = 2,
+    d = 3,
+    e = 5,
+    f = 4
 }
